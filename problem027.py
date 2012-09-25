@@ -24,4 +24,3 @@ for a in xrange(-999, 1000):
 
 print 'Answer problem 27:', S
 
-
