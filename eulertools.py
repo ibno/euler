@@ -71,3 +71,26 @@ def is_probable_prime(n):
 
     return True
  
+from numpy import matrix,array
+
+def prim_pyth_trips(max=None):
+  '''generate all primative triples such that 
+  the sum is less than or equal to max'''
+  u=matrix( [[1,2,2], [-2,-1,-2], [2,2,3]] )
+  a=matrix( [[1,2,2], [2,1,2], [2,2,3]] )
+  d=matrix( [[-1,-2,-2], [2,1,2], [2,2,3]] )
+  m=[ array([3,4,5]) ]
+  while m:
+    for i in m:
+      yield i
+    g=( (i*j).getA1() for i in m for j in (u,a,d) )
+    m=[ i for i in g if max is None or sum(i)<=max ]
+
+def pyth_trips(max):
+  '''generate all triples such that 
+  the sum is less than or equal to max'''
+  for i in prim_pyth_trips(max):
+    ret=i[:]
+    while sum(ret)<=max:
+      yield ret
+      ret=ret+i
