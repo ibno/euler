@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # Euler Project Problem 27
-from util import get_primes
+from eulertools import get_primes
 
 """Benchmark
 Intel Core2 Duo CPU P8400  @ 2.26GHz 
@@ -22,5 +22,5 @@ for a in xrange(-999, 1000):
             N = n
             S = a*b
 
-print 'Answer problem 27:', S
+print 'Problem 27 answer:', S
 

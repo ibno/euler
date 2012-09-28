@@ -22,4 +22,4 @@ def spiral_sum(i, ply, max_size):
     return SE+SW+NW+NE+spiral_sum(NE, ply+1, max_size)
 
 S = 1+spiral_sum(1, 1, 1001)
-print 'Answer problem 28:', S
+print 'Problem 28 answer:', S
