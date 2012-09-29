@@ -1,3 +1,5 @@
+import random, math
+from numpy import matrix,array
 
 def get_primes(n):
     """Generate primes < n. Algorithm: Sieve of Eratosthenes."""
@@ -25,7 +27,6 @@ def get_sieve(n):
                 sieve[i] = False
     return sieve
 
-import random
  
 _mrpt_num_trials = 5 # number of bases to test
  
@@ -71,7 +72,6 @@ def is_probable_prime(n):
 
     return True
  
-from numpy import matrix,array
 
 def prim_pyth_trips(max=None):
   '''generate all primative triples such that 
@@ -94,3 +94,27 @@ def pyth_trips(max):
     while sum(ret)<=max:
       yield ret
       ret=ret+i
+
+def get_proper_divisors(N):
+    divisors = set([1])
+    for n in xrange(2, int(math.sqrt(N))+1):
+        if N%n == 0:
+            divisors.add(n)
+            divisors.add(N/n)
+    divisors = list(divisors)
+    divisors.sort()
+    
+    return divisors
+
+def get_prime_factors(N, primes):
+    prime_factors = []
+    for p in primes:
+        k = 0
+        while N%p == 0:
+            k += 1
+            N /= p
+        if k != 0:
+            prime_factors.append((p, k))
+        if N == 1:
+            break
+    return prime_factors
