@@ -32,4 +32,4 @@ for a in xrange(10000):
         if a != b:
             s += a
 
-print 'Problem 21 answer:', s
+print 'Answer to problem 21:', s

@@ -21,4 +21,4 @@ for n in xrange(10000):
     if digits == range(1,10):
         res = d
 
-print 'Problem 38 answer:', res
+print 'Answer to problem 38:', res

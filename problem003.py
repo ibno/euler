@@ -31,4 +31,4 @@ for i in xrange(len(sieve)):
         for k in xrange(2*i, int(math.sqrt(N)), i):
             sieve[k] = False
 
-print 'Problem 3 answer:', L
+print 'Answer to problem 3:', L

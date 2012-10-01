@@ -39,4 +39,4 @@ for i in xrange(2, N+1):
         longest_chain = len(chain_index)
         smallest_member = min(sigmas[n] for n in chain_index)
 
-print 'Problem 95 answer:', smallest_member
+print 'Answer to problem 95:', smallest_member

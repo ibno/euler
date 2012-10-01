@@ -24,4 +24,4 @@ for u in xrange(1, 100):
                 triples[sum(l)].append(l)
 
 p = map(len, triples)
-print 'Problem 39 answer:', p.index(max(p))
+print 'Answer to problem 39:', p.index(max(p))

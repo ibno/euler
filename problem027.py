@@ -22,5 +22,5 @@ for a in xrange(-999, 1000):
             N = n
             S = a*b
 
-print 'Problem 27 answer:', S
+print 'Answer to problem 27:', S
 

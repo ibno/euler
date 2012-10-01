@@ -32,4 +32,4 @@ for year in xrange(1, 101):
             if day == 6:
                 sunday_count += 1
 
-print 'Problem 19 answer:', sunday_count
+print 'Answer to problem 19:', sunday_count

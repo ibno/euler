@@ -22,4 +22,4 @@ def pow_mod10(a, e, m):
         return (a*pow_mod10((a*a)%m, e/2, m))%m
 
 ans = (28433*pow_mod10(2, 7830457, 10**10)+1)%10**10
-print 'Problem 97 answer:', ans
+print 'Answer to problem 97:', ans

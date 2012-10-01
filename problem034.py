@@ -11,4 +11,4 @@ sys	0m0.004s
 from math import factorial as fac
 
 c = sum(x for x in xrange(1, 100000) if x == sum(map(fac, map(int, str(x)))))
-print 'Problem 34 answer:', c
+print 'Answer to problem 34:', c

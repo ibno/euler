@@ -21,6 +21,6 @@ for n in itertools.count(1):
         if T%q == 0:
             div_cnt += 2
     if div_cnt > 500:
-        print 'Problem 12 answer:', T
+        print 'Answer to problem 12:', T
         break
 

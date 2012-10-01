@@ -44,4 +44,4 @@ while start_value < 10**6:
             longest_chain_start = start_value
     start_value += 1
 
-print 'Problem 14 answer:', longest_chain_start
+print 'Answer to problem 14:', longest_chain_start

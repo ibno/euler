@@ -23,4 +23,4 @@ for i in xrange(2, len(sieve)):
         for j in xrange(2*i, len(sieve), i):
             sieve[j] = False
 
-print 'Problem 7 answer:', P
+print 'Answer to problem 7:', P

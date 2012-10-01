@@ -20,4 +20,4 @@ n = 100
 
 R = n**2 * (n+1)**2 / 4 - n* (n+1) * (2*n+1) / 6
 
-print 'Problem 6 answer:', R
+print 'Answer to problem 6:', R

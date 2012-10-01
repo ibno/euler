@@ -59,4 +59,4 @@ for n in xrange(1, 1001, 1):
                 s += lookup[tens]+lookup[ones]
     cnt += len(s)
 
-print 'Problem 17 answer:', cnt 
+print 'Answer to problem 17:', cnt 

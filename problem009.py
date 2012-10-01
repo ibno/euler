@@ -19,6 +19,6 @@ for D in itertools.count(1):
             b = 2*v*v + 2*u*v
             c = u*u + 2*v*v + 2*u*v
             if a+b+c == 1000:
-                print 'Problem 9 answer:', a*b*c
+                print 'Answer to problem 9:', a*b*c
                 exit()
 

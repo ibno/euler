@@ -20,4 +20,4 @@ for p in pandigitals:
     if c == ab or d == ab:
         products.add(ab)
 
-print 'Problem 32 answer:',sum(products)
+print 'Answer to problem 32:',sum(products)

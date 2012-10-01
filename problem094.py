@@ -44,4 +44,4 @@ while L <= M:
     yk = y
     k += 1
 
-print 'Problem 94 answer:', ans
+print 'Answer to problem 94:', ans

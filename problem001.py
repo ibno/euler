@@ -9,4 +9,4 @@ user    0m0.016s
 sys 0m0.008s
 """
 
-print 'Problem 1 answer:', sum(set(xrange(3, 1000, 3)).union(xrange(5, 1000, 5)))
+print 'Answer to problem 1:', sum(set(xrange(3, 1000, 3)).union(xrange(5, 1000, 5)))

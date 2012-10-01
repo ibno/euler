@@ -49,4 +49,4 @@ for i in xrange(20):
         if r > R:
             R = r
 
-print 'Problem 11 answer:', R
+print 'Answer to problem 11:', R

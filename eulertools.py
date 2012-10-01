@@ -118,3 +118,7 @@ def get_prime_factors(N, primes):
         if N == 1:
             break
     return prime_factors
+
+def is_pandigital(n, k=9):
+    n = str(n)
+    return len(n) == k and not '1234567890'[:k].strip(n)

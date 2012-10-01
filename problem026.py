@@ -24,4 +24,4 @@ def cycle_length(n):
         remainder = 10*(remainder%n)
 
 (n, d)= max((cycle_length(n), n) for n in xrange(1, 1000))
-print 'Problem 26 answer:', d
+print 'Answer to problem 26:', d

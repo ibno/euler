@@ -31,4 +31,4 @@ for p in xrange(10, 100):
                 Q *= Fraction(p, q)
 
             
-print 'Problem 33 answer:', Q.denominator
+print 'Answer to problem 33:', Q.denominator

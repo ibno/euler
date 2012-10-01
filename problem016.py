@@ -10,4 +10,4 @@ sys 0m0.000s
 """
 
 S = sum(map(int, str(2**1000)))
-print 'Problem 16 answer:', S
+print 'Answer to problem 16:', S

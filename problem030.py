@@ -14,4 +14,4 @@ for n in range(2, 10**6):
     if n == sum([k**5 for k in map(int, str(n))]):
         res += n
 
-print 'Problem 30 answer:', res
+print 'Answer to problem 30:', res

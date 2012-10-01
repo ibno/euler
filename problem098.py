@@ -77,4 +77,4 @@ for (w1, w2) in anagrams:
         if math.sqrt(n) == int(math.sqrt(n)):
             ans = max(n, squares[i], ans)
 
-print 'Problem 98 answer:', ans
+print 'Answer to problem 98:', ans

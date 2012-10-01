@@ -16,4 +16,4 @@ for p in reversed([int(''.join(n)) for n in permutations('1234567')]):
     if is_probable_prime(p):
         ans = p
         break
-print 'Problem 41 answer:', ans
+print 'Answer to problem 41:', ans

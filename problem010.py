@@ -19,4 +19,4 @@ for i in xrange(3, len(sieve), 2):
             sieve[j] = False
 
 
-print 'Problem 10 answer:', S
+print 'Answer to problem 10:', S

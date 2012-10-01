@@ -24,4 +24,4 @@ abundants = set(i for i in xrange(1,28124) if d(i) > i)
 abundant_sum = lambda x: any(x-a in abundants for a in abundants)
 S=sum(i for i in xrange(1,28124) if not abundant_sum(i))
 
-print 'Problem 23 answer:', S
+print 'Answer to problem 23:', S

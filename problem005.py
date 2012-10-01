@@ -20,4 +20,4 @@ L = 1
 for x in xrange(2,21):
     L = lcm(L,x)
 
-print 'Problem 5 answer:', L
+print 'Answer to problem 5:', L

@@ -27,4 +27,4 @@ for p in primes:
     if truncatable_prime:
         res += p
 
-print 'Problem 37 answer:', res
+print 'Answer to problem 37:', res

@@ -37,4 +37,4 @@ for i in xrange(0,len(N)-5):
         L = l
 
 
-print 'Problem 8 answer:', L
+print 'Answer to problem 8:', L

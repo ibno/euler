@@ -11,4 +11,4 @@ sys 0m0.004s
 
 uniques = set(a**b for a in xrange(2, 101) for b in xrange(2, 101))
 res = len(uniques)
-print 'Problem 29 answer:', res
+print 'Answer to problem 29:', res

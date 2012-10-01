@@ -12,4 +12,4 @@ sys 0m0.008s
 from math import sqrt, log10
 
 n = int((999 + log10(5)/2)/log10((1+sqrt(5))/2))+1
-print 'Problem 25 answer:', n
+print 'Answer to problem 25:', n

@@ -36,4 +36,4 @@ def count_combinations(left, coin_pool, lookup):
 coins = [1, 2, 5, 10, 20, 50, 100, 200]
 lookup = { coin_value : [-1]*201 for coin_value in coins}
 S = count_combinations(200, coins, lookup)
-print 'Problem 31 answer:', S
+print 'Answer to problem 31:', S

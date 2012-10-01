@@ -10,4 +10,4 @@ sys	0m0.052s
 """
 d = ''.join([str(i) for i in xrange(1,1000000)])
 ans = reduce(lambda x,y: x*y, [int(d[(10**e)-1]) for e in xrange(1,7)])
-print 'Problem 40 answer:', ans
+print 'Answer to problem 40:', ans

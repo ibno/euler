@@ -37,4 +37,4 @@ def count_paths(x, y, lookup, dim):
     return right+down
 
 S = count_paths(0, 0, [], 21)
-print 'Problem 15 answer:', S
+print 'Answer to problem 15:', S

@@ -20,4 +20,4 @@ res = 0
 for i in xrange(len(names)):
     res += sum(map(lambda x: x-ord('A')+1, map(ord, names[i])))*(i+1)
 
-print 'Problem 22 answer:', res
+print 'Answer to problem 22:', res

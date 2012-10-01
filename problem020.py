@@ -12,4 +12,4 @@ sys 0m0.016s
 """
 
 S = sum(map(int, str(math.factorial(100))))
-print 'Problem 20 answer:', S
+print 'Answer to problem 20:', S

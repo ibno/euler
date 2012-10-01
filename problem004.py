@@ -16,4 +16,4 @@ for A in xrange(100, 1000, 1):
         if str(A*B) == str(A*B)[::-1] and A*B > L:
             L = A*B
 
-print 'Problem 4 answer:', L
+print 'Answer to problem 4:', L

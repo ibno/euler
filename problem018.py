@@ -42,4 +42,4 @@ def max_route(triangle, i, depth, max_depth, lookup):
 triangle = map(int, s.split())
 lookup = [-1]*len(triangle)
 S = max_route(triangle, 0, 1, 15, lookup)
-print 'Problem 18 answer:', S
+print 'Answer to problem 18:', S

@@ -24,4 +24,4 @@ for p in xrange(2, 10**6):
     if i == 0:
         c += 1
 
-print 'Problem 35 answer:', c
+print 'Answer to problem 35:', c

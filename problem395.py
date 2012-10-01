@@ -67,4 +67,4 @@ def calc_area(max_depth):
 
 
 area = calc_area(100)
-print 'Problem 395 answer:', area
+print 'Answer to problem 395:', area

@@ -22,4 +22,4 @@ while a <= 4e6:
     a = b
     b += c
 
-print 'Problem 2 answer:', S
+print 'Answer to problem 2:', S
