@@ -141,7 +141,7 @@ int main(int argc, char **argv)
 		col_sum /= 10;
 	}
 
-	printf("Problem 13 answer: ");
+	printf("Answer to problem 13: ");
 	for (i = n-1; i > n - 11; --i)
 		printf("%d", result[i]);
 	printf("\n");

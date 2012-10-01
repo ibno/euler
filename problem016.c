@@ -40,7 +40,7 @@ int main(int argc, char **argv)
 				/* The last digit is in the remainder. */
 				sum += remainder;
 			} else if (i == 0) {
-				printf("Problem 16 answer: %d\n", sum);
+				printf("Answer to problem 16: %d\n", sum);
 				return 0;
 			}
 	}

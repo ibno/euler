@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 	 	else n = sq%10000000000ull;
 	}
 	ans = (28433*n+1)%10000000000ull;
-	printf("Problem 97 answer: %llu\n", ans);
+	printf("Answer to problem 97: %llu\n", ans);
 	return 0;
 }
 

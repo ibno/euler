@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 				div_cnt += 2;
 	}
 
-	printf("Problem 12 answer: %d\n", T);
+	printf("Answer to problem 12: %d\n", T);
 	return 0;
 }
 
